@@ -140,3 +140,12 @@ Desde el script en el que estamos podemos acceder al `ControladorDelJuego` de la
 ### bool ContieneLaEtiqueta(string etiqueta)
   Devuelve true si el Tag del collider es “etiqueta”
 
+-------------
+
+# Links Utiles
+
+- [The Ultimate Beginners Guide To Game Development In Unity](https://www.freecodecamp.org/news/the-ultimate-beginners-guide-to-game-development-in-unity-f9bfe972c2b5/)
+- [Unity Asset Store](https://assetstore.unity.com/)
+- [Tutoriales oficiales de Unity](https://learn.unity.com/)
+- [Game Work Jam](https://www.facebook.com/gameworkjam/)
+- [Blog de ingeniería de Etermax](https://engineering.etermax.com/)
