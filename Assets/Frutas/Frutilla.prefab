@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4742468644588717351}
   - component: {fileID: 4699641232919497495}
+  - component: {fileID: 5474457467045744265}
   m_Layer: 0
   m_Name: Frutilla
   m_TagString: Colectable
@@ -46,6 +47,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.03904283, y: 0.031785566, z: 0.033993937}
   m_Center: {x: -0.0003099749, y: 0.015591888, z: 0.0016449606}
+--- !u!114 &5474457467045744265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745978609865183347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb356142b2fdd8645ab7d76736b8aa01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4745978610487625577
 GameObject:
   m_ObjectHideFlags: 0

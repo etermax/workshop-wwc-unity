@@ -87,6 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4273345284060865725}
   - component: {fileID: 4297876821998251899}
+  - component: {fileID: 1911268313360706939}
   m_Layer: 0
   m_Name: Pera
   m_TagString: Colectable
@@ -123,6 +124,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.08400971, y: 0.15003213, z: 0.08027937}
   m_Center: {x: -0.0003721863, y: 0.0749509, z: 0.0007176511}
+--- !u!114 &1911268313360706939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4269483473407996077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb356142b2fdd8645ab7d76736b8aa01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4269483476641895103
 GameObject:
   m_ObjectHideFlags: 0

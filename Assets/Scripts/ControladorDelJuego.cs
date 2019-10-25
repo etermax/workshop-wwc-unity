@@ -43,4 +43,10 @@ public class ControladorDelJuego : MonoBehaviour
             }
         }
     }
+    
+    public void SumarPuntos(int puntos)
+    {
+        _puntos += puntos;
+        TextoPuntos.text = _puntos.ToString("#0000");
+    }
 }
