@@ -26,7 +26,7 @@ Workshop de introducción a la programación de juegos con Unity
 
 ## Ayuditas:
 
-1. Poner paredes (Cubos) invisibles (o sea, con el componente `Mesh Renderer` apagado), que tengan el componente `Box Collider` y el Tag `Obstaculo`. 
+1. Poner paredes (Cubos) invisibles (o sea, con el componente `Mesh Renderer` apagado), que tengan el componente `Box Collider` con el check de `IsTrigger` habilitado y el Tag `Obstaculo`. 
 
 2. En la carpeta `Assets/DecoracionesDeEscenario` hay varios objetos para usar. Arrastrarlos a la escena y acomodarlos como gustes.
 Tambien podes cambiar el setup del escenario agregando o sacando calles, pasto o agua.
@@ -48,8 +48,7 @@ En el método `Start` de ese script llamar a la función:
 
   - `Color` va a ser un color generado de forma random utilizando `Random.ColorHSV()`
 
-4. Agregar dos variables publicas de tipo `Camera` a la clase `ControladorDelJuego`, y desde el editor arrastrar las camaras para asignarles valor. En el método `Update` de esta misma clase, chequear si se presionó la tecla `BarraSpaceadora` utilizando la función `this.SePresionoLaTecla(CodigoDeTecla)`. Cuando esto suceda, prender una cámara y apagar la otra (de forma intercambiada) utilizando
-`gameObject.SetActive(bool);`
+4. Agregar dos variables publicas de tipo `Camera` a la clase `ControladorDelJuego`, y desde el editor arrastrar las camaras para asignarles valor. En el método `Update` de esta misma clase, chequear si se presionó la tecla `BarraSpaceadora` utilizando la función `this.SePresionoLaTecla(CodigoDeTecla)`. Cuando esto suceda, prender una cámara y apagar la otra (de forma intercambiada) utilizando los métodos `ActivarCamara(Camera);` y `DesactivarCamara(Camera);`
 
 5. En la carpeta `Assets/Frutas` hay varios los prefabs de frutitas, arrastrarlos en la escena y acomodarlos.
 Crear un script que herede de `MonoBehaviour` y agregarlo como componente a todos los prefabs de frutas.
