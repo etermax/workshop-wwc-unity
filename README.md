@@ -116,6 +116,9 @@ Desde el script en el que estamos podemos acceder al `ControladorDelJuego` de la
 ### Vector3 ObtenerPosicionActual()
   Devuelve un Vector3 que indica la posición actual del objeto
 
+### Vector3 ObtenerPosicionLocalActualDe(Gameobject objeto)
+  Devuelve un Vector3 que indica la posición actual del objeto pasado por parámetro
+
 ### CargarEscena(string nombreEscena)
   Carga la nueva escena eliminando la anterior
 
@@ -134,11 +137,21 @@ Desde el script en el que estamos podemos acceder al `ControladorDelJuego` de la
 ### CambiarColor(MeshRenderer maya3D, Color color)
   Le cambia el tint color a la maya3D recibida por parametro.
 
+### Destruir()
+ Destruye el objeto y lo remueve de la escena
+ 
+### ActivarCamara(Camera camara)
+ Activa la cámara
+
+### DesactivarCamara(Camera camara)
+ Desactiva la cámara
+
 
 ## Métodos de Collider
 
 ### bool ContieneLaEtiqueta(string etiqueta)
   Devuelve true si el Tag del collider es “etiqueta”
+
 
 -------------
 
