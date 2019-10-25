@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4100532174703413179}
   - component: {fileID: 4100532174703413178}
   - component: {fileID: 5431764876345821206}
+  - component: {fileID: 2764792171929408722}
   m_Layer: 0
   m_Name: Camioneta
   m_TagString: Transito
@@ -75,6 +76,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca8c9bf08564217be73376b51bc8b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2764792171929408722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4100532175027044818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc11d7ceeed24799892b63ccd8cbe488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Maya3D: {fileID: 4097074710007591772}
 --- !u!1001 &4097074710005558076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -151,6 +165,12 @@ PrefabInstance:
 --- !u!4 &4097074710005166524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a18502e969a0c534b872f9b0c502a02c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4097074710005558076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4097074710007591772 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: a18502e969a0c534b872f9b0c502a02c,
     type: 3}
   m_PrefabInstance: {fileID: 4097074710005558076}
   m_PrefabAsset: {fileID: 0}
