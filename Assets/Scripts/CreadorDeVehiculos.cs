@@ -11,7 +11,7 @@ public class CreadorDeVehiculos : MonoBehaviour
 
     private void Start()
     {
-        _tiempoFaltante = IntervaloDeAparicionSegundos;
+        _tiempoFaltante = 0;
     }
     
     private void CrearVehiculo()
